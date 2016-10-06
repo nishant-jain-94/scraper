@@ -1,0 +1,18 @@
+{
+  "name": "phantomjs-renderer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/phantomjs/bin/phantomjs scraperUsingPhantom.js",
+    "cheerio": "node scraperUsingCheerio.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "phantomjs": "^2.1.7",
+    "webpage": "^0.3.0"
+  }
+}
